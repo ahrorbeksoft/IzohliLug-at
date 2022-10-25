@@ -1,0 +1,609 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E1BBA1B22907C32100518FFF /* IzohliLugatApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1BBA1B12907C32100518FFF /* IzohliLugatApp.swift */; };
+		E1BBA1B42907C32100518FFF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1BBA1B32907C32100518FFF /* ContentView.swift */; };
+		E1BBA1B62907C32200518FFF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1BBA1B52907C32200518FFF /* Assets.xcassets */; };
+		E1BBA1B92907C32200518FFF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1BBA1B82907C32200518FFF /* Preview Assets.xcassets */; };
+		E1BBA1BB2907C32200518FFF /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1BBA1BA2907C32200518FFF /* Persistence.swift */; };
+		E1BBA1BE2907C32200518FFF /* IzohliLugat.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E1BBA1BC2907C32200518FFF /* IzohliLugat.xcdatamodeld */; };
+		E1BBA1C82907C32200518FFF /* IzohliLugatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1BBA1C72907C32200518FFF /* IzohliLugatTests.swift */; };
+		E1BBA1D22907C32200518FFF /* IzohliLugatUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1BBA1D12907C32200518FFF /* IzohliLugatUITests.swift */; };
+		E1BBA1D42907C32200518FFF /* IzohliLugatUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1BBA1D32907C32200518FFF /* IzohliLugatUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E1BBA1C42907C32200518FFF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E1BBA1A62907C32100518FFF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E1BBA1AD2907C32100518FFF;
+			remoteInfo = IzohliLugat;
+		};
+		E1BBA1CE2907C32200518FFF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E1BBA1A62907C32100518FFF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E1BBA1AD2907C32100518FFF;
+			remoteInfo = IzohliLugat;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E1BBA1AE2907C32100518FFF /* IzohliLugat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IzohliLugat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1BBA1B12907C32100518FFF /* IzohliLugatApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IzohliLugatApp.swift; sourceTree = "<group>"; };
+		E1BBA1B32907C32100518FFF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E1BBA1B52907C32200518FFF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E1BBA1B82907C32200518FFF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E1BBA1BA2907C32200518FFF /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		E1BBA1BD2907C32200518FFF /* IzohliLugat.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = IzohliLugat.xcdatamodel; sourceTree = "<group>"; };
+		E1BBA1C32907C32200518FFF /* IzohliLugatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IzohliLugatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1BBA1C72907C32200518FFF /* IzohliLugatTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IzohliLugatTests.swift; sourceTree = "<group>"; };
+		E1BBA1CD2907C32200518FFF /* IzohliLugatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IzohliLugatUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1BBA1D12907C32200518FFF /* IzohliLugatUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IzohliLugatUITests.swift; sourceTree = "<group>"; };
+		E1BBA1D32907C32200518FFF /* IzohliLugatUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IzohliLugatUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E1BBA1AB2907C32100518FFF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1BBA1C02907C32200518FFF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1BBA1CA2907C32200518FFF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E1BBA1A52907C32100518FFF = {
+			isa = PBXGroup;
+			children = (
+				E1BBA1B02907C32100518FFF /* IzohliLugat */,
+				E1BBA1C62907C32200518FFF /* IzohliLugatTests */,
+				E1BBA1D02907C32200518FFF /* IzohliLugatUITests */,
+				E1BBA1AF2907C32100518FFF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E1BBA1AF2907C32100518FFF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E1BBA1AE2907C32100518FFF /* IzohliLugat.app */,
+				E1BBA1C32907C32200518FFF /* IzohliLugatTests.xctest */,
+				E1BBA1CD2907C32200518FFF /* IzohliLugatUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E1BBA1B02907C32100518FFF /* IzohliLugat */ = {
+			isa = PBXGroup;
+			children = (
+				E1BBA1B12907C32100518FFF /* IzohliLugatApp.swift */,
+				E1BBA1B32907C32100518FFF /* ContentView.swift */,
+				E1BBA1B52907C32200518FFF /* Assets.xcassets */,
+				E1BBA1BA2907C32200518FFF /* Persistence.swift */,
+				E1BBA1BC2907C32200518FFF /* IzohliLugat.xcdatamodeld */,
+				E1BBA1B72907C32200518FFF /* Preview Content */,
+			);
+			path = IzohliLugat;
+			sourceTree = "<group>";
+		};
+		E1BBA1B72907C32200518FFF /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				E1BBA1B82907C32200518FFF /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E1BBA1C62907C32200518FFF /* IzohliLugatTests */ = {
+			isa = PBXGroup;
+			children = (
+				E1BBA1C72907C32200518FFF /* IzohliLugatTests.swift */,
+			);
+			path = IzohliLugatTests;
+			sourceTree = "<group>";
+		};
+		E1BBA1D02907C32200518FFF /* IzohliLugatUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E1BBA1D12907C32200518FFF /* IzohliLugatUITests.swift */,
+				E1BBA1D32907C32200518FFF /* IzohliLugatUITestsLaunchTests.swift */,
+			);
+			path = IzohliLugatUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E1BBA1AD2907C32100518FFF /* IzohliLugat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E1BBA1D72907C32200518FFF /* Build configuration list for PBXNativeTarget "IzohliLugat" */;
+			buildPhases = (
+				E1BBA1AA2907C32100518FFF /* Sources */,
+				E1BBA1AB2907C32100518FFF /* Frameworks */,
+				E1BBA1AC2907C32100518FFF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IzohliLugat;
+			productName = IzohliLugat;
+			productReference = E1BBA1AE2907C32100518FFF /* IzohliLugat.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E1BBA1C22907C32200518FFF /* IzohliLugatTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E1BBA1DA2907C32200518FFF /* Build configuration list for PBXNativeTarget "IzohliLugatTests" */;
+			buildPhases = (
+				E1BBA1BF2907C32200518FFF /* Sources */,
+				E1BBA1C02907C32200518FFF /* Frameworks */,
+				E1BBA1C12907C32200518FFF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E1BBA1C52907C32200518FFF /* PBXTargetDependency */,
+			);
+			name = IzohliLugatTests;
+			productName = IzohliLugatTests;
+			productReference = E1BBA1C32907C32200518FFF /* IzohliLugatTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E1BBA1CC2907C32200518FFF /* IzohliLugatUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E1BBA1DD2907C32200518FFF /* Build configuration list for PBXNativeTarget "IzohliLugatUITests" */;
+			buildPhases = (
+				E1BBA1C92907C32200518FFF /* Sources */,
+				E1BBA1CA2907C32200518FFF /* Frameworks */,
+				E1BBA1CB2907C32200518FFF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E1BBA1CF2907C32200518FFF /* PBXTargetDependency */,
+			);
+			name = IzohliLugatUITests;
+			productName = IzohliLugatUITests;
+			productReference = E1BBA1CD2907C32200518FFF /* IzohliLugatUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E1BBA1A62907C32100518FFF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					E1BBA1AD2907C32100518FFF = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					E1BBA1C22907C32200518FFF = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = E1BBA1AD2907C32100518FFF;
+					};
+					E1BBA1CC2907C32200518FFF = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = E1BBA1AD2907C32100518FFF;
+					};
+				};
+			};
+			buildConfigurationList = E1BBA1A92907C32100518FFF /* Build configuration list for PBXProject "IzohliLugat" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E1BBA1A52907C32100518FFF;
+			productRefGroup = E1BBA1AF2907C32100518FFF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E1BBA1AD2907C32100518FFF /* IzohliLugat */,
+				E1BBA1C22907C32200518FFF /* IzohliLugatTests */,
+				E1BBA1CC2907C32200518FFF /* IzohliLugatUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E1BBA1AC2907C32100518FFF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1BBA1B92907C32200518FFF /* Preview Assets.xcassets in Resources */,
+				E1BBA1B62907C32200518FFF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1BBA1C12907C32200518FFF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1BBA1CB2907C32200518FFF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E1BBA1AA2907C32100518FFF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1BBA1BE2907C32200518FFF /* IzohliLugat.xcdatamodeld in Sources */,
+				E1BBA1BB2907C32200518FFF /* Persistence.swift in Sources */,
+				E1BBA1B42907C32100518FFF /* ContentView.swift in Sources */,
+				E1BBA1B22907C32100518FFF /* IzohliLugatApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1BBA1BF2907C32200518FFF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1BBA1C82907C32200518FFF /* IzohliLugatTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1BBA1C92907C32200518FFF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1BBA1D22907C32200518FFF /* IzohliLugatUITests.swift in Sources */,
+				E1BBA1D42907C32200518FFF /* IzohliLugatUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E1BBA1C52907C32200518FFF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E1BBA1AD2907C32100518FFF /* IzohliLugat */;
+			targetProxy = E1BBA1C42907C32200518FFF /* PBXContainerItemProxy */;
+		};
+		E1BBA1CF2907C32200518FFF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E1BBA1AD2907C32100518FFF /* IzohliLugat */;
+			targetProxy = E1BBA1CE2907C32200518FFF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		E1BBA1D52907C32200518FFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E1BBA1D62907C32200518FFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E1BBA1D82907C32200518FFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"IzohliLugat/Preview Content\"";
+				DEVELOPMENT_TEAM = XXY42ZJH7V;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ahrorbeksoft.IzohliLugat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E1BBA1D92907C32200518FFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"IzohliLugat/Preview Content\"";
+				DEVELOPMENT_TEAM = XXY42ZJH7V;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ahrorbeksoft.IzohliLugat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E1BBA1DB2907C32200518FFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XXY42ZJH7V;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ahrorbeksoft.IzohliLugatTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IzohliLugat.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/IzohliLugat";
+			};
+			name = Debug;
+		};
+		E1BBA1DC2907C32200518FFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XXY42ZJH7V;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ahrorbeksoft.IzohliLugatTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IzohliLugat.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/IzohliLugat";
+			};
+			name = Release;
+		};
+		E1BBA1DE2907C32200518FFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XXY42ZJH7V;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ahrorbeksoft.IzohliLugatUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = IzohliLugat;
+			};
+			name = Debug;
+		};
+		E1BBA1DF2907C32200518FFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XXY42ZJH7V;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ahrorbeksoft.IzohliLugatUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = IzohliLugat;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E1BBA1A92907C32100518FFF /* Build configuration list for PBXProject "IzohliLugat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1BBA1D52907C32200518FFF /* Debug */,
+				E1BBA1D62907C32200518FFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E1BBA1D72907C32200518FFF /* Build configuration list for PBXNativeTarget "IzohliLugat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1BBA1D82907C32200518FFF /* Debug */,
+				E1BBA1D92907C32200518FFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E1BBA1DA2907C32200518FFF /* Build configuration list for PBXNativeTarget "IzohliLugatTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1BBA1DB2907C32200518FFF /* Debug */,
+				E1BBA1DC2907C32200518FFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E1BBA1DD2907C32200518FFF /* Build configuration list for PBXNativeTarget "IzohliLugatUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1BBA1DE2907C32200518FFF /* Debug */,
+				E1BBA1DF2907C32200518FFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		E1BBA1BC2907C32200518FFF /* IzohliLugat.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				E1BBA1BD2907C32200518FFF /* IzohliLugat.xcdatamodel */,
+			);
+			currentVersion = E1BBA1BD2907C32200518FFF /* IzohliLugat.xcdatamodel */;
+			path = IzohliLugat.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = E1BBA1A62907C32100518FFF /* Project object */;
+}
