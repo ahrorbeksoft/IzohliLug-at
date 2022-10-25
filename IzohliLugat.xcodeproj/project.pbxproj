@@ -11,11 +11,11 @@
 		E1BBA1B42907C32100518FFF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1BBA1B32907C32100518FFF /* ContentView.swift */; };
 		E1BBA1B62907C32200518FFF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1BBA1B52907C32200518FFF /* Assets.xcassets */; };
 		E1BBA1B92907C32200518FFF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1BBA1B82907C32200518FFF /* Preview Assets.xcassets */; };
-		E1BBA1BB2907C32200518FFF /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1BBA1BA2907C32200518FFF /* Persistence.swift */; };
 		E1BBA1BE2907C32200518FFF /* IzohliLugat.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E1BBA1BC2907C32200518FFF /* IzohliLugat.xcdatamodeld */; };
 		E1BBA1C82907C32200518FFF /* IzohliLugatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1BBA1C72907C32200518FFF /* IzohliLugatTests.swift */; };
 		E1BBA1D22907C32200518FFF /* IzohliLugatUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1BBA1D12907C32200518FFF /* IzohliLugatUITests.swift */; };
 		E1BBA1D42907C32200518FFF /* IzohliLugatUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1BBA1D32907C32200518FFF /* IzohliLugatUITestsLaunchTests.swift */; };
+		E1BBA1E12907C36D00518FFF /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1BBA1E02907C36D00518FFF /* HomeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,13 +41,13 @@
 		E1BBA1B32907C32100518FFF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E1BBA1B52907C32200518FFF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E1BBA1B82907C32200518FFF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		E1BBA1BA2907C32200518FFF /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		E1BBA1BD2907C32200518FFF /* IzohliLugat.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = IzohliLugat.xcdatamodel; sourceTree = "<group>"; };
 		E1BBA1C32907C32200518FFF /* IzohliLugatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IzohliLugatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1BBA1C72907C32200518FFF /* IzohliLugatTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IzohliLugatTests.swift; sourceTree = "<group>"; };
 		E1BBA1CD2907C32200518FFF /* IzohliLugatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IzohliLugatUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1BBA1D12907C32200518FFF /* IzohliLugatUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IzohliLugatUITests.swift; sourceTree = "<group>"; };
 		E1BBA1D32907C32200518FFF /* IzohliLugatUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IzohliLugatUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E1BBA1E02907C36D00518FFF /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,10 +99,12 @@
 			isa = PBXGroup;
 			children = (
 				E1BBA1B12907C32100518FFF /* IzohliLugatApp.swift */,
-				E1BBA1B32907C32100518FFF /* ContentView.swift */,
-				E1BBA1B52907C32200518FFF /* Assets.xcassets */,
-				E1BBA1BA2907C32200518FFF /* Persistence.swift */,
+				E1BBA1E529084E6E00518FFF /* Model */,
+				E1BBA1E729084EC300518FFF /* Screen */,
+				E1BBA1E629084EAA00518FFF /* View */,
+				E1BBA1E429084E5F00518FFF /* Data */,
 				E1BBA1BC2907C32200518FFF /* IzohliLugat.xcdatamodeld */,
+				E1BBA1B52907C32200518FFF /* Assets.xcassets */,
 				E1BBA1B72907C32200518FFF /* Preview Content */,
 			);
 			path = IzohliLugat;
@@ -131,6 +133,36 @@
 				E1BBA1D32907C32200518FFF /* IzohliLugatUITestsLaunchTests.swift */,
 			);
 			path = IzohliLugatUITests;
+			sourceTree = "<group>";
+		};
+		E1BBA1E429084E5F00518FFF /* Data */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		E1BBA1E529084E6E00518FFF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E1BBA1E629084EAA00518FFF /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E1BBA1E729084EC300518FFF /* Screen */ = {
+			isa = PBXGroup;
+			children = (
+				E1BBA1B32907C32100518FFF /* ContentView.swift */,
+				E1BBA1E02907C36D00518FFF /* HomeView.swift */,
+			);
+			path = Screen;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -264,8 +296,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				E1BBA1BE2907C32200518FFF /* IzohliLugat.xcdatamodeld in Sources */,
-				E1BBA1BB2907C32200518FFF /* Persistence.swift in Sources */,
 				E1BBA1B42907C32100518FFF /* ContentView.swift in Sources */,
+				E1BBA1E12907C36D00518FFF /* HomeView.swift in Sources */,
 				E1BBA1B22907C32100518FFF /* IzohliLugatApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
