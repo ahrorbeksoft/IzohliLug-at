@@ -27,10 +27,10 @@ struct HomeScreen: View {
                 }
                 
             }
-            .navigationTitle("Izohli lug'at")
-//            .navigationViewStyle(StackNavigationViewStyle())
+            .navigationTitle("Izohli lugʻat")
+            .navigationViewStyle(StackNavigationViewStyle())
 //            .navigationBarTitleDisplayMode(.inline)
-            .searchable(text: $searchText, placement: .navigationBarDrawer(displayMode: .always), prompt: "So'z izlash...")
+            .searchable(text: $searchText, placement: .navigationBarDrawer(displayMode: .always), prompt: "Soʻz izlash...")
             
         }
         
