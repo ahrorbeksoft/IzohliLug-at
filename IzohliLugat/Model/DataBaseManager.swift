@@ -7,6 +7,7 @@
 
 import Foundation
 import SQLite
+import UIKit
 class DataBaseManager {
     private var db: Connection!
     private var izohlar: Table!
@@ -19,6 +20,7 @@ class DataBaseManager {
     
     init() {
         do {
+            UIBarButtonItem.appearance(whenContainedInInstancesOf: [UISearchBar.self]).title = "Bekor qilish"
             db = try Connection(path, readonly: true)
             izohlar = Table("izohlar")
         }catch {

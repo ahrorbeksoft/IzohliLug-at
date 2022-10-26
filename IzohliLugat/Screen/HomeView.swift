@@ -10,6 +10,7 @@ import SwiftUI
 struct HomeScreen: View {
 //    @State var izohModels: [IzohModel]
     @State var searchText: String = ""
+    
     var izohModels: [IzohModel] {
             if searchText.isEmpty {
                 return DataBaseManager().getWords(word: "a")
@@ -27,9 +28,10 @@ struct HomeScreen: View {
                 
             }
             .navigationTitle("Izohli lug'at")
-            .navigationViewStyle(StackNavigationViewStyle())
+//            .navigationViewStyle(StackNavigationViewStyle())
 //            .navigationBarTitleDisplayMode(.inline)
-            .searchable(text: $searchText)
+            .searchable(text: $searchText, placement: .navigationBarDrawer(displayMode: .always), prompt: "So'z izlash...")
+            
         }
         
     }

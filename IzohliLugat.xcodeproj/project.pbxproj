@@ -55,7 +55,7 @@
 		E1BBA1D32907C32200518FFF /* IzohliLugatUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IzohliLugatUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		E1BBA1E02907C36D00518FFF /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		E1BBA1EB290851CE00518FFF /* DataBaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataBaseManager.swift; sourceTree = "<group>"; };
-		E1BBA1EF29085C6700518FFF /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; name = MyPlayground.playground; path = ../MyPlayground.playground; sourceTree = "<group>"; };
+		E1BBA1EF29085C6700518FFF /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; name = MyPlayground.playground; path = ../MyPlayground.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		E1BBA1F0290861A100518FFF /* IzohModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IzohModel.swift; sourceTree = "<group>"; };
 		E1BBA1F2290865BA00518FFF /* words.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = words.db; sourceTree = "<group>"; };
 		E1BBA1F42909348300518FFF /* WordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordView.swift; sourceTree = "<group>"; };
@@ -272,6 +272,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				"uz-UZ",
 				Base,
 			);
 			mainGroup = E1BBA1A52907C32100518FFF;
