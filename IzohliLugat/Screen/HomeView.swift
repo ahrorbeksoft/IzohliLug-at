@@ -8,8 +8,30 @@
 import SwiftUI
 
 struct HomeScreen: View {
+//    @State var izohModels: [IzohModel]
+    @State var searchText: String = ""
+    var izohModels: [IzohModel] {
+            if searchText.isEmpty {
+                return DataBaseManager().getWords(word: "a")
+            } else {
+                return DataBaseManager().getWords(word: searchText)
+            }
+        }
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        NavigationView() {
+            List (self.izohModels) { (model) in
+                NavigationLink(destination: WordView(izoh: model)) {
+                    WordRowView(izoh: model)
+                        .padding(.vertical, 4)
+                }
+                
+            }
+            .navigationTitle("Izohli lug'at")
+            .navigationViewStyle(StackNavigationViewStyle())
+//            .navigationBarTitleDisplayMode(.inline)
+            .searchable(text: $searchText)
+        }
+        
     }
 }
 

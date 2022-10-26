@@ -16,6 +16,12 @@
 		E1BBA1D22907C32200518FFF /* IzohliLugatUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1BBA1D12907C32200518FFF /* IzohliLugatUITests.swift */; };
 		E1BBA1D42907C32200518FFF /* IzohliLugatUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1BBA1D32907C32200518FFF /* IzohliLugatUITestsLaunchTests.swift */; };
 		E1BBA1E12907C36D00518FFF /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1BBA1E02907C36D00518FFF /* HomeView.swift */; };
+		E1BBA1EA290851AF00518FFF /* SQLite in Frameworks */ = {isa = PBXBuildFile; productRef = E1BBA1E9290851AF00518FFF /* SQLite */; };
+		E1BBA1EC290851CE00518FFF /* DataBaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1BBA1EB290851CE00518FFF /* DataBaseManager.swift */; };
+		E1BBA1F1290861A100518FFF /* IzohModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1BBA1F0290861A100518FFF /* IzohModel.swift */; };
+		E1BBA1F3290865BA00518FFF /* words.db in Resources */ = {isa = PBXBuildFile; fileRef = E1BBA1F2290865BA00518FFF /* words.db */; };
+		E1BBA1F52909348300518FFF /* WordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1BBA1F42909348300518FFF /* WordView.swift */; };
+		E1BBA1F7290952AD00518FFF /* WordRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1BBA1F6290952AD00518FFF /* WordRowView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +54,12 @@
 		E1BBA1D12907C32200518FFF /* IzohliLugatUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IzohliLugatUITests.swift; sourceTree = "<group>"; };
 		E1BBA1D32907C32200518FFF /* IzohliLugatUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IzohliLugatUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		E1BBA1E02907C36D00518FFF /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		E1BBA1EB290851CE00518FFF /* DataBaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataBaseManager.swift; sourceTree = "<group>"; };
+		E1BBA1EF29085C6700518FFF /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; name = MyPlayground.playground; path = ../MyPlayground.playground; sourceTree = "<group>"; };
+		E1BBA1F0290861A100518FFF /* IzohModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IzohModel.swift; sourceTree = "<group>"; };
+		E1BBA1F2290865BA00518FFF /* words.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = words.db; sourceTree = "<group>"; };
+		E1BBA1F42909348300518FFF /* WordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordView.swift; sourceTree = "<group>"; };
+		E1BBA1F6290952AD00518FFF /* WordRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordRowView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +67,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E1BBA1EA290851AF00518FFF /* SQLite in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +91,7 @@
 		E1BBA1A52907C32100518FFF = {
 			isa = PBXGroup;
 			children = (
+				E1BBA1EF29085C6700518FFF /* MyPlayground.playground */,
 				E1BBA1B02907C32100518FFF /* IzohliLugat */,
 				E1BBA1C62907C32200518FFF /* IzohliLugatTests */,
 				E1BBA1D02907C32200518FFF /* IzohliLugatUITests */,
@@ -99,9 +113,9 @@
 			isa = PBXGroup;
 			children = (
 				E1BBA1B12907C32100518FFF /* IzohliLugatApp.swift */,
-				E1BBA1E529084E6E00518FFF /* Model */,
 				E1BBA1E729084EC300518FFF /* Screen */,
 				E1BBA1E629084EAA00518FFF /* View */,
+				E1BBA1E529084E6E00518FFF /* Model */,
 				E1BBA1E429084E5F00518FFF /* Data */,
 				E1BBA1BC2907C32200518FFF /* IzohliLugat.xcdatamodeld */,
 				E1BBA1B52907C32200518FFF /* Assets.xcassets */,
@@ -138,6 +152,7 @@
 		E1BBA1E429084E5F00518FFF /* Data */ = {
 			isa = PBXGroup;
 			children = (
+				E1BBA1F2290865BA00518FFF /* words.db */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -145,6 +160,8 @@
 		E1BBA1E529084E6E00518FFF /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				E1BBA1EB290851CE00518FFF /* DataBaseManager.swift */,
+				E1BBA1F0290861A100518FFF /* IzohModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -152,6 +169,8 @@
 		E1BBA1E629084EAA00518FFF /* View */ = {
 			isa = PBXGroup;
 			children = (
+				E1BBA1F42909348300518FFF /* WordView.swift */,
+				E1BBA1F6290952AD00518FFF /* WordRowView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -181,6 +200,9 @@
 			dependencies = (
 			);
 			name = IzohliLugat;
+			packageProductDependencies = (
+				E1BBA1E9290851AF00518FFF /* SQLite */,
+			);
 			productName = IzohliLugat;
 			productReference = E1BBA1AE2907C32100518FFF /* IzohliLugat.app */;
 			productType = "com.apple.product-type.application";
@@ -253,6 +275,9 @@
 				Base,
 			);
 			mainGroup = E1BBA1A52907C32100518FFF;
+			packageReferences = (
+				E1BBA1E8290851AF00518FFF /* XCRemoteSwiftPackageReference "SQLite.swift" */,
+			);
 			productRefGroup = E1BBA1AF2907C32100518FFF /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -269,6 +294,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E1BBA1F3290865BA00518FFF /* words.db in Resources */,
 				E1BBA1B92907C32200518FFF /* Preview Assets.xcassets in Resources */,
 				E1BBA1B62907C32200518FFF /* Assets.xcassets in Resources */,
 			);
@@ -295,10 +321,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E1BBA1EC290851CE00518FFF /* DataBaseManager.swift in Sources */,
 				E1BBA1BE2907C32200518FFF /* IzohliLugat.xcdatamodeld in Sources */,
+				E1BBA1F52909348300518FFF /* WordView.swift in Sources */,
+				E1BBA1F7290952AD00518FFF /* WordRowView.swift in Sources */,
 				E1BBA1B42907C32100518FFF /* ContentView.swift in Sources */,
 				E1BBA1E12907C36D00518FFF /* HomeView.swift in Sources */,
 				E1BBA1B22907C32100518FFF /* IzohliLugatApp.swift in Sources */,
+				E1BBA1F1290861A100518FFF /* IzohModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -385,10 +415,11 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "Izohli Lug'at";
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -439,9 +470,10 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "Izohli Lug'at";
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
@@ -623,6 +655,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		E1BBA1E8290851AF00518FFF /* XCRemoteSwiftPackageReference "SQLite.swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/stephencelis/SQLite.swift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.9.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		E1BBA1E9290851AF00518FFF /* SQLite */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E1BBA1E8290851AF00518FFF /* XCRemoteSwiftPackageReference "SQLite.swift" */;
+			productName = SQLite;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		E1BBA1BC2907C32200518FFF /* IzohliLugat.xcdatamodeld */ = {
