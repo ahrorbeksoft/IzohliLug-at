@@ -2,6 +2,8 @@
 O'zbek tili izohli lug'ati, ios uchun
 
 ## Screenshots
-![MainScreen](/screens/screen1.png?raw=true "MainScreen")
-![SearchText](/screens/screen2.png?raw=true "SearchText")
-![DescriptionView](/screens/screen3.png?raw=true "DescriptionView")
+<div align="center">
+    <img src="/screens/screen1.png" width="300px"</img> 
+  <img src="/screens/screen2.png" width="300px"</img> 
+  <img src="/screens/screen3.png" width="300px"</img> 
+</div>
