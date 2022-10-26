@@ -11,7 +11,6 @@
 		E1BBA1B42907C32100518FFF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1BBA1B32907C32100518FFF /* ContentView.swift */; };
 		E1BBA1B62907C32200518FFF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1BBA1B52907C32200518FFF /* Assets.xcassets */; };
 		E1BBA1B92907C32200518FFF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1BBA1B82907C32200518FFF /* Preview Assets.xcassets */; };
-		E1BBA1BE2907C32200518FFF /* IzohliLugat.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E1BBA1BC2907C32200518FFF /* IzohliLugat.xcdatamodeld */; };
 		E1BBA1C82907C32200518FFF /* IzohliLugatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1BBA1C72907C32200518FFF /* IzohliLugatTests.swift */; };
 		E1BBA1D22907C32200518FFF /* IzohliLugatUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1BBA1D12907C32200518FFF /* IzohliLugatUITests.swift */; };
 		E1BBA1D42907C32200518FFF /* IzohliLugatUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1BBA1D32907C32200518FFF /* IzohliLugatUITestsLaunchTests.swift */; };
@@ -47,7 +46,6 @@
 		E1BBA1B32907C32100518FFF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E1BBA1B52907C32200518FFF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E1BBA1B82907C32200518FFF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		E1BBA1BD2907C32200518FFF /* IzohliLugat.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = IzohliLugat.xcdatamodel; sourceTree = "<group>"; };
 		E1BBA1C32907C32200518FFF /* IzohliLugatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IzohliLugatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1BBA1C72907C32200518FFF /* IzohliLugatTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IzohliLugatTests.swift; sourceTree = "<group>"; };
 		E1BBA1CD2907C32200518FFF /* IzohliLugatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IzohliLugatUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -117,7 +115,6 @@
 				E1BBA1E629084EAA00518FFF /* View */,
 				E1BBA1E529084E6E00518FFF /* Model */,
 				E1BBA1E429084E5F00518FFF /* Data */,
-				E1BBA1BC2907C32200518FFF /* IzohliLugat.xcdatamodeld */,
 				E1BBA1B52907C32200518FFF /* Assets.xcassets */,
 				E1BBA1B72907C32200518FFF /* Preview Content */,
 			);
@@ -322,7 +319,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				E1BBA1EC290851CE00518FFF /* DataBaseManager.swift in Sources */,
-				E1BBA1BE2907C32200518FFF /* IzohliLugat.xcdatamodeld in Sources */,
 				E1BBA1F52909348300518FFF /* WordView.swift in Sources */,
 				E1BBA1F7290952AD00518FFF /* WordRowView.swift in Sources */,
 				E1BBA1B42907C32100518FFF /* ContentView.swift in Sources */,
@@ -676,19 +672,6 @@
 			productName = SQLite;
 		};
 /* End XCSwiftPackageProductDependency section */
-
-/* Begin XCVersionGroup section */
-		E1BBA1BC2907C32200518FFF /* IzohliLugat.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				E1BBA1BD2907C32200518FFF /* IzohliLugat.xcdatamodel */,
-			);
-			currentVersion = E1BBA1BD2907C32200518FFF /* IzohliLugat.xcdatamodel */;
-			path = IzohliLugat.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = E1BBA1A62907C32100518FFF /* Project object */;
 }

@@ -1,7 +1,7 @@
 //
 //  HomeView.swift
 //  IzohliLugat
-//
+// test push commit from xcode
 //  Created by Ahrorbek Abdullayev on 25/10/22.
 //
 
