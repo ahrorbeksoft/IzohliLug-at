@@ -194,6 +194,7 @@
 				E1BBA1AA2907C32100518FFF /* Sources */,
 				E1BBA1AB2907C32100518FFF /* Frameworks */,
 				E1BBA1AC2907C32100518FFF /* Resources */,
+				E1BBA200290974C100518FFF /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -272,7 +273,6 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
-				"uz-UZ",
 				Base,
 			);
 			mainGroup = E1BBA1A52907C32100518FFF;
@@ -316,6 +316,27 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		E1BBA200290974C100518FFF /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "
+";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		E1BBA1AA2907C32100518FFF /* Sources */ = {
@@ -493,6 +514,7 @@
 				DEVELOPMENT_TEAM = XXY42ZJH7V;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Izohli Lu'gat";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -522,6 +544,7 @@
 				DEVELOPMENT_TEAM = XXY42ZJH7V;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Izohli Lu'gat";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
