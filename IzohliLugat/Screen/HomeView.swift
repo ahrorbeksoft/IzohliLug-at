@@ -9,7 +9,7 @@ import SwiftUI
 
 struct HomeScreen: View {
 //    @State var izohModels: [IzohModel]
-    @State var searchText: String = ""
+    @State private var searchText: String = ""
     
     var izohModels: [IzohModel] {
             if searchText.isEmpty {
@@ -19,21 +19,35 @@ struct HomeScreen: View {
             }
         }
     var body: some View {
-        NavigationView() {
-            List (self.izohModels) { (model) in
-                NavigationLink(destination: WordView(izoh: model)) {
-                    WordRowView(izoh: model)
-                        .padding(.vertical, 4)
+        ZStack {
+            VStack(spacing: 0) {
+                NavView(searchText: $searchText)
+                    .padding(.horizontal, 15)
+                    .padding(.bottom)
+                    .padding(.top, UIApplication.shared.connectedScenes
+                        .flatMap { ($0 as? UIWindowScene)?.windows ?? [] }
+                        .first { $0.isKeyWindow }?.safeAreaInsets.top)
+                    .background(.white)
+                    .shadow(color: .accentColor.opacity(0.05), radius: 5, x: 0, y: 5)
+                
+                NavigationView() {
+                    List (self.izohModels) { (model) in
+                        NavigationLink(destination: WordView(izoh: model)) {
+                            WordRowView(izoh: model)
+                                .padding(.vertical, 4)
+                        }
+                        
+                    }
+                    .navigationBarHidden(true)
+                    
+    //                .searchable(text: $searchText, placement: .navigationBarDrawer(displayMode: .always), prompt: "Soʻz izlash...")
+//                    .searchable(text: $searchText, prompt: "Soʻz izlash...")
+                    
                 }
                 
-            }
-            .navigationTitle("Izohli lugʻat")
-            .navigationViewStyle(StackNavigationViewStyle())
-//            .navigationBarTitleDisplayMode(.inline)
-            .searchable(text: $searchText, placement: .navigationBarDrawer(displayMode: .always), prompt: "Soʻz izlash...")
-            
-        }
-        
+            }.background(ignoresSafeAreaEdges: .all)
+        }.ignoresSafeArea(.all, edges: .top)
+
     }
 }
 

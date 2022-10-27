@@ -21,6 +21,9 @@
 		E1BBA1F3290865BA00518FFF /* words.db in Resources */ = {isa = PBXBuildFile; fileRef = E1BBA1F2290865BA00518FFF /* words.db */; };
 		E1BBA1F52909348300518FFF /* WordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1BBA1F42909348300518FFF /* WordView.swift */; };
 		E1BBA1F7290952AD00518FFF /* WordRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1BBA1F6290952AD00518FFF /* WordRowView.swift */; };
+		E1BBA2022909AA9800518FFF /* NavView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1BBA2012909AA9800518FFF /* NavView.swift */; };
+		E1BBA2042909AF0500518FFF /* LogoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1BBA2032909AF0500518FFF /* LogoView.swift */; };
+		E1BBA2062909BEE100518FFF /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1BBA2052909BEE100518FFF /* SearchBar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +61,9 @@
 		E1BBA1F2290865BA00518FFF /* words.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = words.db; sourceTree = "<group>"; };
 		E1BBA1F42909348300518FFF /* WordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordView.swift; sourceTree = "<group>"; };
 		E1BBA1F6290952AD00518FFF /* WordRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordRowView.swift; sourceTree = "<group>"; };
+		E1BBA2012909AA9800518FFF /* NavView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavView.swift; sourceTree = "<group>"; };
+		E1BBA2032909AF0500518FFF /* LogoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoView.swift; sourceTree = "<group>"; };
+		E1BBA2052909BEE100518FFF /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -168,6 +174,9 @@
 			children = (
 				E1BBA1F42909348300518FFF /* WordView.swift */,
 				E1BBA1F6290952AD00518FFF /* WordRowView.swift */,
+				E1BBA2012909AA9800518FFF /* NavView.swift */,
+				E1BBA2032909AF0500518FFF /* LogoView.swift */,
+				E1BBA2052909BEE100518FFF /* SearchBar.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -318,11 +327,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E1BBA2022909AA9800518FFF /* NavView.swift in Sources */,
+				E1BBA2042909AF0500518FFF /* LogoView.swift in Sources */,
 				E1BBA1EC290851CE00518FFF /* DataBaseManager.swift in Sources */,
 				E1BBA1F52909348300518FFF /* WordView.swift in Sources */,
 				E1BBA1F7290952AD00518FFF /* WordRowView.swift in Sources */,
 				E1BBA1B42907C32100518FFF /* ContentView.swift in Sources */,
 				E1BBA1E12907C36D00518FFF /* HomeView.swift in Sources */,
+				E1BBA2062909BEE100518FFF /* SearchBar.swift in Sources */,
 				E1BBA1B22907C32100518FFF /* IzohliLugatApp.swift in Sources */,
 				E1BBA1F1290861A100518FFF /* IzohModel.swift in Sources */,
 			);
