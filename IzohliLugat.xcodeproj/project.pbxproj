@@ -7,63 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E14FE18D290BE11300CE1342 /* SearchBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E14FE18C290BE11300CE1342 /* SearchBarView.swift */; };
+		E14FE18F290BE1B400CE1342 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E14FE18E290BE1B400CE1342 /* Extensions.swift */; };
 		E1BBA1B22907C32100518FFF /* IzohliLugatApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1BBA1B12907C32100518FFF /* IzohliLugatApp.swift */; };
 		E1BBA1B42907C32100518FFF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1BBA1B32907C32100518FFF /* ContentView.swift */; };
 		E1BBA1B62907C32200518FFF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1BBA1B52907C32200518FFF /* Assets.xcassets */; };
 		E1BBA1B92907C32200518FFF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1BBA1B82907C32200518FFF /* Preview Assets.xcassets */; };
-		E1BBA1C82907C32200518FFF /* IzohliLugatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1BBA1C72907C32200518FFF /* IzohliLugatTests.swift */; };
-		E1BBA1D22907C32200518FFF /* IzohliLugatUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1BBA1D12907C32200518FFF /* IzohliLugatUITests.swift */; };
-		E1BBA1D42907C32200518FFF /* IzohliLugatUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1BBA1D32907C32200518FFF /* IzohliLugatUITestsLaunchTests.swift */; };
 		E1BBA1E12907C36D00518FFF /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1BBA1E02907C36D00518FFF /* HomeView.swift */; };
 		E1BBA1EA290851AF00518FFF /* SQLite in Frameworks */ = {isa = PBXBuildFile; productRef = E1BBA1E9290851AF00518FFF /* SQLite */; };
 		E1BBA1EC290851CE00518FFF /* DataBaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1BBA1EB290851CE00518FFF /* DataBaseManager.swift */; };
 		E1BBA1F1290861A100518FFF /* IzohModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1BBA1F0290861A100518FFF /* IzohModel.swift */; };
 		E1BBA1F3290865BA00518FFF /* words.db in Resources */ = {isa = PBXBuildFile; fileRef = E1BBA1F2290865BA00518FFF /* words.db */; };
-		E1BBA1F52909348300518FFF /* WordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1BBA1F42909348300518FFF /* WordView.swift */; };
 		E1BBA1F7290952AD00518FFF /* WordRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1BBA1F6290952AD00518FFF /* WordRowView.swift */; };
 		E1BBA2022909AA9800518FFF /* NavView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1BBA2012909AA9800518FFF /* NavView.swift */; };
 		E1BBA2042909AF0500518FFF /* LogoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1BBA2032909AF0500518FFF /* LogoView.swift */; };
-		E1BBA2062909BEE100518FFF /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1BBA2052909BEE100518FFF /* SearchBar.swift */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		E1BBA1C42907C32200518FFF /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = E1BBA1A62907C32100518FFF /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = E1BBA1AD2907C32100518FFF;
-			remoteInfo = IzohliLugat;
-		};
-		E1BBA1CE2907C32200518FFF /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = E1BBA1A62907C32100518FFF /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = E1BBA1AD2907C32100518FFF;
-			remoteInfo = IzohliLugat;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
+		E14FE18C290BE11300CE1342 /* SearchBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBarView.swift; sourceTree = "<group>"; };
+		E14FE18E290BE1B400CE1342 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		E1BBA1AE2907C32100518FFF /* IzohliLugat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IzohliLugat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1BBA1B12907C32100518FFF /* IzohliLugatApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IzohliLugatApp.swift; sourceTree = "<group>"; };
 		E1BBA1B32907C32100518FFF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E1BBA1B52907C32200518FFF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E1BBA1B82907C32200518FFF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		E1BBA1C32907C32200518FFF /* IzohliLugatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IzohliLugatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		E1BBA1C72907C32200518FFF /* IzohliLugatTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IzohliLugatTests.swift; sourceTree = "<group>"; };
-		E1BBA1CD2907C32200518FFF /* IzohliLugatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IzohliLugatUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		E1BBA1D12907C32200518FFF /* IzohliLugatUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IzohliLugatUITests.swift; sourceTree = "<group>"; };
-		E1BBA1D32907C32200518FFF /* IzohliLugatUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IzohliLugatUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		E1BBA1E02907C36D00518FFF /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		E1BBA1EB290851CE00518FFF /* DataBaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataBaseManager.swift; sourceTree = "<group>"; };
-		E1BBA1EF29085C6700518FFF /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; name = MyPlayground.playground; path = ../MyPlayground.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		E1BBA1F0290861A100518FFF /* IzohModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IzohModel.swift; sourceTree = "<group>"; };
 		E1BBA1F2290865BA00518FFF /* words.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = words.db; sourceTree = "<group>"; };
-		E1BBA1F42909348300518FFF /* WordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordView.swift; sourceTree = "<group>"; };
 		E1BBA1F6290952AD00518FFF /* WordRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordRowView.swift; sourceTree = "<group>"; };
 		E1BBA2012909AA9800518FFF /* NavView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavView.swift; sourceTree = "<group>"; };
 		E1BBA2032909AF0500518FFF /* LogoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoView.swift; sourceTree = "<group>"; };
-		E1BBA2052909BEE100518FFF /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,30 +49,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E1BBA1C02907C32200518FFF /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E1BBA1CA2907C32200518FFF /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		E1BBA1A52907C32100518FFF = {
 			isa = PBXGroup;
 			children = (
-				E1BBA1EF29085C6700518FFF /* MyPlayground.playground */,
 				E1BBA1B02907C32100518FFF /* IzohliLugat */,
-				E1BBA1C62907C32200518FFF /* IzohliLugatTests */,
-				E1BBA1D02907C32200518FFF /* IzohliLugatUITests */,
 				E1BBA1AF2907C32100518FFF /* Products */,
 			);
 			sourceTree = "<group>";
@@ -107,8 +64,6 @@
 			isa = PBXGroup;
 			children = (
 				E1BBA1AE2907C32100518FFF /* IzohliLugat.app */,
-				E1BBA1C32907C32200518FFF /* IzohliLugatTests.xctest */,
-				E1BBA1CD2907C32200518FFF /* IzohliLugatUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -135,23 +90,6 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		E1BBA1C62907C32200518FFF /* IzohliLugatTests */ = {
-			isa = PBXGroup;
-			children = (
-				E1BBA1C72907C32200518FFF /* IzohliLugatTests.swift */,
-			);
-			path = IzohliLugatTests;
-			sourceTree = "<group>";
-		};
-		E1BBA1D02907C32200518FFF /* IzohliLugatUITests */ = {
-			isa = PBXGroup;
-			children = (
-				E1BBA1D12907C32200518FFF /* IzohliLugatUITests.swift */,
-				E1BBA1D32907C32200518FFF /* IzohliLugatUITestsLaunchTests.swift */,
-			);
-			path = IzohliLugatUITests;
-			sourceTree = "<group>";
-		};
 		E1BBA1E429084E5F00518FFF /* Data */ = {
 			isa = PBXGroup;
 			children = (
@@ -165,6 +103,7 @@
 			children = (
 				E1BBA1EB290851CE00518FFF /* DataBaseManager.swift */,
 				E1BBA1F0290861A100518FFF /* IzohModel.swift */,
+				E14FE18E290BE1B400CE1342 /* Extensions.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -172,11 +111,10 @@
 		E1BBA1E629084EAA00518FFF /* View */ = {
 			isa = PBXGroup;
 			children = (
-				E1BBA1F42909348300518FFF /* WordView.swift */,
 				E1BBA1F6290952AD00518FFF /* WordRowView.swift */,
 				E1BBA2012909AA9800518FFF /* NavView.swift */,
 				E1BBA2032909AF0500518FFF /* LogoView.swift */,
-				E1BBA2052909BEE100518FFF /* SearchBar.swift */,
+				E14FE18C290BE11300CE1342 /* SearchBarView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -213,42 +151,6 @@
 			productReference = E1BBA1AE2907C32100518FFF /* IzohliLugat.app */;
 			productType = "com.apple.product-type.application";
 		};
-		E1BBA1C22907C32200518FFF /* IzohliLugatTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = E1BBA1DA2907C32200518FFF /* Build configuration list for PBXNativeTarget "IzohliLugatTests" */;
-			buildPhases = (
-				E1BBA1BF2907C32200518FFF /* Sources */,
-				E1BBA1C02907C32200518FFF /* Frameworks */,
-				E1BBA1C12907C32200518FFF /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				E1BBA1C52907C32200518FFF /* PBXTargetDependency */,
-			);
-			name = IzohliLugatTests;
-			productName = IzohliLugatTests;
-			productReference = E1BBA1C32907C32200518FFF /* IzohliLugatTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		E1BBA1CC2907C32200518FFF /* IzohliLugatUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = E1BBA1DD2907C32200518FFF /* Build configuration list for PBXNativeTarget "IzohliLugatUITests" */;
-			buildPhases = (
-				E1BBA1C92907C32200518FFF /* Sources */,
-				E1BBA1CA2907C32200518FFF /* Frameworks */,
-				E1BBA1CB2907C32200518FFF /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				E1BBA1CF2907C32200518FFF /* PBXTargetDependency */,
-			);
-			name = IzohliLugatUITests;
-			productName = IzohliLugatUITests;
-			productReference = E1BBA1CD2907C32200518FFF /* IzohliLugatUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -261,14 +163,6 @@
 				TargetAttributes = {
 					E1BBA1AD2907C32100518FFF = {
 						CreatedOnToolsVersion = 14.1;
-					};
-					E1BBA1C22907C32200518FFF = {
-						CreatedOnToolsVersion = 14.1;
-						TestTargetID = E1BBA1AD2907C32100518FFF;
-					};
-					E1BBA1CC2907C32200518FFF = {
-						CreatedOnToolsVersion = 14.1;
-						TestTargetID = E1BBA1AD2907C32100518FFF;
 					};
 				};
 			};
@@ -289,8 +183,6 @@
 			projectRoot = "";
 			targets = (
 				E1BBA1AD2907C32100518FFF /* IzohliLugat */,
-				E1BBA1C22907C32200518FFF /* IzohliLugatTests */,
-				E1BBA1CC2907C32200518FFF /* IzohliLugatUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -306,20 +198,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E1BBA1C12907C32200518FFF /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E1BBA1CB2907C32200518FFF /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -330,47 +208,17 @@
 				E1BBA2022909AA9800518FFF /* NavView.swift in Sources */,
 				E1BBA2042909AF0500518FFF /* LogoView.swift in Sources */,
 				E1BBA1EC290851CE00518FFF /* DataBaseManager.swift in Sources */,
-				E1BBA1F52909348300518FFF /* WordView.swift in Sources */,
 				E1BBA1F7290952AD00518FFF /* WordRowView.swift in Sources */,
 				E1BBA1B42907C32100518FFF /* ContentView.swift in Sources */,
 				E1BBA1E12907C36D00518FFF /* HomeView.swift in Sources */,
-				E1BBA2062909BEE100518FFF /* SearchBar.swift in Sources */,
+				E14FE18F290BE1B400CE1342 /* Extensions.swift in Sources */,
+				E14FE18D290BE11300CE1342 /* SearchBarView.swift in Sources */,
 				E1BBA1B22907C32100518FFF /* IzohliLugatApp.swift in Sources */,
 				E1BBA1F1290861A100518FFF /* IzohModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E1BBA1BF2907C32200518FFF /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E1BBA1C82907C32200518FFF /* IzohliLugatTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E1BBA1C92907C32200518FFF /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E1BBA1D22907C32200518FFF /* IzohliLugatUITests.swift in Sources */,
-				E1BBA1D42907C32200518FFF /* IzohliLugatUITestsLaunchTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		E1BBA1C52907C32200518FFF /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = E1BBA1AD2907C32100518FFF /* IzohliLugat */;
-			targetProxy = E1BBA1C42907C32200518FFF /* PBXContainerItemProxy */;
-		};
-		E1BBA1CF2907C32200518FFF /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = E1BBA1AD2907C32100518FFF /* IzohliLugat */;
-			targetProxy = E1BBA1CE2907C32200518FFF /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		E1BBA1D52907C32200518FFF /* Debug */ = {
@@ -549,82 +397,6 @@
 			};
 			name = Release;
 		};
-		E1BBA1DB2907C32200518FFF /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = XXY42ZJH7V;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.ahrorbeksoft.IzohliLugatTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IzohliLugat.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/IzohliLugat";
-			};
-			name = Debug;
-		};
-		E1BBA1DC2907C32200518FFF /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = XXY42ZJH7V;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.ahrorbeksoft.IzohliLugatTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IzohliLugat.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/IzohliLugat";
-			};
-			name = Release;
-		};
-		E1BBA1DE2907C32200518FFF /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = XXY42ZJH7V;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.ahrorbeksoft.IzohliLugatUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = IzohliLugat;
-			};
-			name = Debug;
-		};
-		E1BBA1DF2907C32200518FFF /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = XXY42ZJH7V;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.ahrorbeksoft.IzohliLugatUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = IzohliLugat;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -642,24 +414,6 @@
 			buildConfigurations = (
 				E1BBA1D82907C32200518FFF /* Debug */,
 				E1BBA1D92907C32200518FFF /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		E1BBA1DA2907C32200518FFF /* Build configuration list for PBXNativeTarget "IzohliLugatTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				E1BBA1DB2907C32200518FFF /* Debug */,
-				E1BBA1DC2907C32200518FFF /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		E1BBA1DD2907C32200518FFF /* Build configuration list for PBXNativeTarget "IzohliLugatUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				E1BBA1DE2907C32200518FFF /* Debug */,
-				E1BBA1DF2907C32200518FFF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
